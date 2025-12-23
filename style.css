@@ -1,0 +1,107 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button Styles */
+button {
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('./Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+/* Navbar Styles */
+.navbar {
+    position: relative;
+    z-index: 2;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    width: 100%;
+}
+
+.logo h2 {
+    color: #5D5FEF;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.btn-signup {
+    background-color: #5D5FEF;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 8px;
+}
+
+.btn-signup:hover {
+    background-color: #4a4cd4;
+    transform: scale(1.05);
+}
+
+/* Banner Styles */
+.banner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner-content {
+    max-width: 800px;
+}
+
+.banner-heading {
+    color: #1E1E2F;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.btn-primary {
+    background-color: #5D5FEF;
+    color: #fff;
+    padding: 16px 45px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #4a4cd4;
+    transform: scale(1.05);
+}
